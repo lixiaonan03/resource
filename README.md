@@ -16,19 +16,23 @@
 * [可配置化的整合了主流框架的MVPArms框架](https://github.com/JessYanCoding/MVPArms) （和<a href="#auto">AutoSize适配</a>框架的作者是同一个）
 
 * [基于谷歌最新AAC架构，MVVM设计模式的一套快速开发库MVVMHabit](https://github.com/goldze/MVVMHabit)
-### Rx思想系列
+ #### Rx思想系列
 * [Rx学习RxJava2Examples](https://github.com/nanchen2251/RxJava2Examples)
-### 适配框架
+ #### 组件化
+* [阿里的组件化路由ARouter](https://github.com/alibaba/ARouter)
+ #### 适配框架
 * [今日头条的适配框架<a name="auto">AndroidAutoSize</a>](https://github.com/JessYanCoding/AndroidAutoSize)
-### 图片处理
+ #### 图片处理
 * [图片压缩Luban框架](https://github.com/Curzibn/Luban)
-### 后台任务处理
+ #### 后台任务处理
 * [印象笔记的后台任务android-job](https://github.com/evernote/android-job)
-### 版本更新
+ #### 版本更新
 * [APP版本更新的框架AppUpdate](https://github.com/WVector/AppUpdate) （已停止更新 可参考另一）
+* [参考AppUpdate实现的XUpdate](https://github.com/xuexiangjys/XUpdate) （上一个已停止更新可参考这个）
+
 * [链接调用的更新框架CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib) （这个相比前2个使用简单）
 
-### 热更新
+ #### 热更新
 * [腾讯热更新tinker](https://github.com/Tencent/tinker)
 
 ## 网络模块
@@ -50,25 +54,25 @@
 
   #### 通知栏
 * [通知栏使用NotifyUtil](https://github.com/wenmingvs/NotifyUtil)
-#### 图片处理
+  #### 图片处理
 * [大图慢慢自己移动的框框KenBurnsView](https://github.com/flavioarfaria/KenBurnsView) （闪屏页可以使用，参考soul应用的闪屏页）
 
-#### 状态栏
+  #### 状态栏
 * [处理状态栏和输入法弹框的ImmersionBar](https://github.com/gyf-dev/ImmersionBar) （star数比较多 可参考学习）
 
-#### 自定义view
+  #### 自定义view
 * [背景水波纹效果MultiWaveHeader](https://github.com/scwang90/MultiWaveHeader)
 * [任意位置悬浮的按钮FloatWindow](https://github.com/yhaolpz/FloatWindow)
-列表
+     列表
 * [RecyclerView实现顶部悬浮效果](https://github.com/Gavin-ZYX/StickyDecoration)
-键盘
+     键盘
 * [自定义安全键盘CustomizeKeyboard](https://github.com/StomHong/CustomizeKeyboard)
-日历相关
+     日历相关
 * [支持自定义效果的日历](https://github.com/huanghaibin-dev/CalendarView) (star数最多，可自定义效果)
 * [仿小米日历](https://github.com/xiaojianglaile/Calendar)
-手势密码
+    手势密码
 * [仿支付宝手势密码解锁LockPattern](https://github.com/sym900728/LockPattern)
- 刻度尺和图表总结
+    刻度尺和图表总结
 * [报表统计的MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * [自定义尺子收集demo](https://github.com/dalong982242260/AndroidRuler)
 
@@ -80,7 +84,11 @@
 
 * [微信的性能监控框架Matrix ](https://github.com/Tencent/matrix)
 
+* [滴滴的研发助手框架DoraemonKit ](https://github.com/didi/DoraemonKit)(开发中可使用这个)
+
 * [360的性能监控框架ArgusAPM](https://github.com/Qihoo360/ArgusAPM)
+
+* [崩溃实时显示的SpiderMan](https://github.com/simplepeng/SpiderMan)
 
 * [轻量级自动化埋点方案](https://github.com/luojilab/DDAutoTracker) （待验证效果可以参考AOP面向切面思想）
 
@@ -91,4 +99,4 @@
 ## 联系方式
 * QQ: 472379153
 * 微信: lxn1551309
-![微信](/img/weixin.png)
+![lxn1551309](/img/weixin.jpeg)
