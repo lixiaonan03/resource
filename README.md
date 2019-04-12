@@ -56,7 +56,10 @@
 * [通知栏使用NotifyUtil](https://github.com/wenmingvs/NotifyUtil)
   #### 图片处理
 * [大图慢慢自己移动的框框KenBurnsView](https://github.com/flavioarfaria/KenBurnsView) （闪屏页可以使用，参考soul应用的闪屏页）
-
+  #### 照相机使用
+* [google官方的照相机使用demo](https://github.com/google/cameraview)
+* [仿微信照相机的实现](https://github.com/CJT2325/CameraView)
+* [老外写的自定义照相、摄像实现](https://github.com/natario1/CameraView)（目前项目使用的这个，有相关的api文档可参考使用）
   #### 状态栏
 * [处理状态栏和输入法弹框的ImmersionBar](https://github.com/gyf-dev/ImmersionBar) （star数比较多 可参考学习）
 
