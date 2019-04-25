@@ -64,7 +64,7 @@ Android集成步骤
      AppsFlyerLib.getInstance().startTracking(this);
 
    ```
-4、应用内事件的统计（可选功能）
+4、应用内事件的统计（可选功能）
   统计一些应用内事件点击的次数
   ``` Java
    Map<String, Object> eventValue = new HashMap<>();
@@ -77,11 +77,13 @@ Android集成步骤
      -keep class com.appsflyer.** { *; }
    ```
 
-6、如果需要写死渠道来源、 ![官方文档地址](https://support.appsflyer.com/hc/en-us/articles/207032166-Configuring-and-Testing-Pre-Installs-Campaigns-for-Android#Setup)
+6、如果需要写死渠道来源  [官方文档地址](https://support.appsflyer.com/hc/en-us/articles/207032166-Configuring-and-Testing-Pre-Installs-Campaigns-for-Android#Setup)
    ```xml
    <meta-data android:name="AF_PRE_INSTALL_NAME" android:value="daichao_int"/>
    ```
-   其中 value值填写死的广告平台pid(一般都是 _int 结尾)
+   其中 value 值填写死的广告平台pid(一般都是 _int 结尾)
 
 ###  申请广告平台的账号申请
-     参考地址：https://www.evernote.com/shard/s374/client/snv?noteGuid=3c272532-5916-46b7-8a1a-ca29af83b8f9&noteKey=4e6efceebd6c751b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs374%2Fsh%2F3c272532-5916-46b7-8a1a-ca29af83b8f9%2F4e6efceebd6c751b&title=AppsFlyer%25E5%25B9%25BF%25E5%2591%258A%25E5%25B9%25B3%25E5%258F%25B0%25E8%25B4%25A6%25E5%258F%25B7%25E6%25B3%25A8%25E5%2586%258C%25E5%258F%258A%25E5%259F%25BA%25E6%259C%25AC%25E4%25BD%25BF%25E7%2594%25A8%25E6%258C%2587%25E5%258D%2597
+
+
+ [对接文档地址](https://www.evernote.com/shard/s374/client/snv?noteGuid=3c272532-5916-46b7-8a1a-ca29af83b8f9&noteKey=4e6efceebd6c751b&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs374%2Fsh%2F3c272532-5916-46b7-8a1a-ca29af83b8f9%2F4e6efceebd6c751b&title=AppsFlyer%25E5%25B9%25BF%25E5%2591%258A%25E5%25B9%25B3%25E5%258F%25B0%25E8%25B4%25A6%25E5%258F%25B7%25E6%25B3%25A8%25E5%2586%258C%25E5%258F%258A%25E5%259F%25BA%25E6%259C%25AC%25E4%25BD%25BF%25E7%2594%25A8%25E6%258C%2587%25E5%258D%2597)
