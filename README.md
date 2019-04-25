@@ -16,23 +16,23 @@
 * [可配置化的整合了主流框架的MVPArms框架](https://github.com/JessYanCoding/MVPArms) （和<a href="#auto">AutoSize适配</a>框架的作者是同一个）
 
 * [基于谷歌最新AAC架构，MVVM设计模式的一套快速开发库MVVMHabit](https://github.com/goldze/MVVMHabit)
- #### Rx思想系列
+  #### Rx思想系列
 * [Rx学习RxJava2Examples](https://github.com/nanchen2251/RxJava2Examples)
- #### 组件化
+  #### 组件化
 * [阿里的组件化路由ARouter](https://github.com/alibaba/ARouter)
- #### 适配框架
+  #### 适配框架
 * [今日头条的适配框架<a name="auto">AndroidAutoSize</a>](https://github.com/JessYanCoding/AndroidAutoSize)
- #### 图片处理
+  #### 图片处理
 * [图片压缩Luban框架](https://github.com/Curzibn/Luban)
- #### 后台任务处理
+  #### 后台任务处理
 * [印象笔记的后台任务android-job](https://github.com/evernote/android-job)
- #### 版本更新
+  #### 版本更新
 * [APP版本更新的框架AppUpdate](https://github.com/WVector/AppUpdate) （已停止更新 可参考另一）
 * [参考AppUpdate实现的XUpdate](https://github.com/xuexiangjys/XUpdate) （上一个已停止更新可参考这个）
 
 * [链接调用的更新框架CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib) （这个相比前2个使用简单）
 
- #### 热更新
+  #### 热更新
 * [腾讯热更新tinker](https://github.com/Tencent/tinker)
 
 ## 网络模块
