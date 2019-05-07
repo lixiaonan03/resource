@@ -3,6 +3,7 @@
 ## Android整体知识
 
 * [Android官方培训课程中文版](https://github.com/kesenhoo/android-training-course-in-chinese)
+* [Github上比较火的开源项目集合](https://github.com/open-android/Android)（有链接和视频）
 * [强大易用的安卓工具类库AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) （可从里面找一些工具类）
 
 * [Android校招面试指南](https://github.com/LRH1993/android_interview) （常看看）
