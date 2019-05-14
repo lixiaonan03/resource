@@ -96,6 +96,8 @@
 
 * [轻量级自动化埋点方案](https://github.com/luojilab/DDAutoTracker) （待验证效果可以参考AOP面向切面思想）
 
+* [微信的资源混淆方案](https://github.com/shwenzhang/AndResGuard)
+
 ## 其他模块
 
 
