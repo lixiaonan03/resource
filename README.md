@@ -7,6 +7,7 @@
 * [强大易用的安卓工具类库AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) （可从里面找一些工具类）
 
 * [Android校招面试指南](https://github.com/LRH1993/android_interview) （常看看）
+* [leetcode 图形化解释](https://github.com/MisterBooo/LeetCodeAnimation)(刷算法必备)
 
 * [分类 Android 开源大全AndroidLibs](https://github.com/XXApple/AndroidLibs) （可从里面找一些资源）
 * [小知识点根据字母排序Android-Tips](https://github.com/tangqi92/Android-Tips)
