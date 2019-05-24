@@ -105,4 +105,5 @@
 ## 联系方式
 * QQ: 472379153
 * 微信: lxn1551309
-![lxn1551309](/img/weixin.jpeg)
+
+  ![lxn1551309](/img/weixin.jpeg)
