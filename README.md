@@ -102,6 +102,7 @@
 ## 其他模块
 
 * [好用的一个loggat框架](https://github.com/orhanobut/logger)
+* [可以查看SDK中隐藏类的一种方式](https://github.com/anggrayudi/android-hidden-api)
 
 
 ## 联系方式
