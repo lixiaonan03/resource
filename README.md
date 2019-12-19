@@ -33,7 +33,8 @@
 * [参考AppUpdate实现的XUpdate](https://github.com/xuexiangjys/XUpdate) （上一个已停止更新可参考这个）
 
 * [链接调用的更新框架CheckVersionLib](https://github.com/AlexLiuSheng/CheckVersionLib) （这个相比前2个使用简单）
-
+  #### webview处理
+* [对webview封装的一个好的库](https://github.com/Justson/AgentWeb)
   #### 热更新
 * [腾讯热更新tinker](https://github.com/Tencent/tinker)
 
