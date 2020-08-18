@@ -1,5 +1,7 @@
 # 自己平常整理的一些资源链接和思路
 
+## [面试学习相关的链接](/面试学习/study.md)
+
 ## Android整体知识
 
 * [Android官方培训课程中文版](https://github.com/kesenhoo/android-training-course-in-chinese)
