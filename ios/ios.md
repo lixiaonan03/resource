@@ -68,8 +68,9 @@ https://www.jianshu.com/p/94f047efee6d
 
 ## 第三方jar包管理 (类似安卓的 build gradle文件的)
 刚开始创建的项目是没有这个 build文件的 生成处理步骤
-1、在项目根目录中创建  Podfile 文件
-2、在项目中编辑
++ 1、在项目根目录中创建  Podfile 文件
++ 2、在项目中编辑
+```  IOS
  //项目最低兼容的IOS版本
  platform :ios, '8.0'
  // ocDemo 更换为项目名称
@@ -77,8 +78,9 @@ https://www.jianshu.com/p/94f047efee6d
   //引入的第三方包
   pod 'Masonry', '1.1.0'
  end
-3、在项目的根目录下 命令行执行 pod install
-4、执行成功之后 项目根目录下会出现  项目名.xcworkspace  的文件(原来只有一个 .xcodeproj)   点击这个文件打开工程
+```
++ 3、在项目的根目录下 命令行执行 pod install
++ 4、执行成功之后 项目根目录下会出现  项目名.xcworkspace  的文件(原来只有一个 .xcodeproj)   点击这个文件打开工程
 
 ## 常用的项目框架
 
