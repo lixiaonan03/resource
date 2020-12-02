@@ -5,20 +5,20 @@
   定义协议在调用的类.h  中(注意要用弱引用)   类似安卓在adapter 中创建一个条目点击监听并生成一个监听listner对象
   比如：
 ```  IOS
-  @interface ImageViewDemoVC ()
-  @property(nonatomic,strong) CircleImageView *circleImageView;
-  @end
+@interface ImageViewDemoVC ()
+@property(nonatomic,strong) CircleImageView *circleImageView;
+@end
 
-  @interface BBTSplashVC : UIViewController
-  @property(nonatomic,weak) id <BBTSplashVCDelegate> splashVCDelegate;
-  @end
+@interface BBTSplashVC : UIViewController
+@property(nonatomic,weak) id <BBTSplashVCDelegate> splashVCDelegate;
+@end
 ```
 
   调用者在 .m 中 (注意判断这个类是否实现)   类似安卓在adapter 中判断这个监听是否被set(不为空)了 并调用listner.某个方法
 ```  IOS
-  if ([self.splashVCDelegate respondsToSelector:@selector(userDidTouchedSplashVCwithUri:)]) {
-         [self.splashVCDelegate userDidTouchedSplashVCwithUri:self.uri];
-     }
+if ([self.splashVCDelegate respondsToSelector:@selector(userDidTouchedSplashVCwithUri:)]) {
+   [self.splashVCDelegate userDidTouchedSplashVCwithUri:self.uri];
+}
 ```
   实现在另个继承这个协议的类中 (IOS只有通过类实现 没有同过匿名内部类创建的方式) 类似于安卓在 activity创建adapter时 给这个adapter 设置一个匿名内部类listner对象
 
@@ -36,10 +36,12 @@ OGC 同步执行和异步执行 串行队列和并行队列的
 
 同步执行：同步添加任务到指定的队列中，在添加的任务执行结束之前，会一直等待，直到队列里面的任务完成之后再继续执行。
         只能在当前线程中执行任务，不具备开启新线程的能力。
+
 异步执行：异步添加任务到指定的队列中，它不会做任何等待，可以继续执行任务。
         可以在新的线程中执行任务，具备开启新线程的能力。
 
 串行队列：每次只有一个任务被执行。让任务一个接着一个地执行。（只开启一个线程，一个任务执行完毕后，再执行下一个任务）
+
 并行队列：可以让多个任务并发（同时）执行。（可以开启多个线程，并且同时执行任务）
 
 使用：1、先创建一个队列 2、将任务追加到任务的等待队列中，然后系统就会根据任务类型执行任务（同步执行或异步执行）。
@@ -77,7 +79,7 @@ https://www.jianshu.com/p/94f047efee6d
 3、在项目的根目录下 命令行执行 pod install
 4、执行成功之后 项目根目录下会出现  项目名.xcworkspace  的文件(原来只有一个 .xcodeproj)   点击这个文件打开工程
 
-## 、常用的项目框架
+## 常用的项目框架
 
   * [JSON和model之间的转换的](https://github.com/CoderMJLee/MJExtension)
     有点类似fastJson 但是注意：因为oc中的array没法指定类型，所以当一个模型(也就是类)中个array数组，并且其中array中的类型不是基础类型的时候，就需要实现方法  mj_ objectClassInArray  告诉系统这个array中是啥对象 （写在.m）中就行
