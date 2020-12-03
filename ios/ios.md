@@ -1,4 +1,11 @@
 # IOS初学的一些整理(OC 相关的)
+### !!!oc的基础语法和介绍
+1、https://github.com/qinjx/30min_guides/blob/master/ios.md
+
+### 官方文档
+1、开发者中文文档 https://developer.apple.com/cn/documentation/
+
+
 
 ## 代理和协议相关：
   代理就是委托模式 协议就是接口
@@ -83,8 +90,8 @@ https://www.jianshu.com/p/94f047efee6d
 + 4、执行成功之后 项目根目录下会出现  项目名.xcworkspace  的文件(原来只有一个 .xcodeproj)   点击这个文件打开工程
 
 ## 常用的项目框架
-
-+ 1、[JSON和model之间的转换的](https://github.com/CoderMJLee/MJExtension)
++ 1、[约束布局框架的Masonry](https://github.com/SnapKit/Masonry)
++ 2、[JSON和model之间的转换的](https://github.com/CoderMJLee/MJExtension)
 
 有点类似fastJson 但是注意：因为oc中的array没法指定类型，所以当一个模型(也就是类)中个array数组，并且其中array中的类型不是基础类型的时候，就需要实现方法  mj_ objectClassInArray  告诉系统这个array中是啥对象 （写在.m）中就行
 ```  IOS
@@ -93,4 +100,9 @@ https://www.jianshu.com/p/94f047efee6d
   return @{ @"statuses" : @"Status", @"ads" : @"Ad" };
 }
 ```
-+ 2、
++ 3、[网络库使用的AFNetworking](https://github.com/AFNetworking/AFNetworking)
++ 4、[图片加载库的SDWebImage](https://github.com/SDWebImage/SDWebImage)
++ 5、[简化文件处理的FCFileManager](https://github.com/fabiocaccamo/FCFileManager)
++ 6、[处理键盘弹出对界面影响的问题IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
++ 7、[第三方刷新框架MJRefresh](https://github.com/CoderMJLee/MJRefresh)
++ 8、
