@@ -67,6 +67,7 @@
 * [老外写的自定义照相、摄像实现](https://github.com/natario1/CameraView)（目前项目使用的这个，有相关的api文档可参考使用）
   #### 状态栏
 * [处理状态栏和输入法弹框的ImmersionBar](https://github.com/gyf-dev/ImmersionBar) （star数比较多 可参考学习）
+* [一款方便的设置状态栏和导航栏的各种效果的框架](https://github.com/Zackratos/UltimateBarX)
 
   #### 自定义view
 * [背景水波纹效果MultiWaveHeader](https://github.com/scwang90/MultiWaveHeader)
