@@ -44,6 +44,10 @@
 
 * [基于RxJava2+Retrofit2的网络请求框架RxEasyHttp](https://github.com/zhou-you/RxEasyHttp)
 
+## 图片加载模块
+
+* [扩展glide框架支持webp格式gif的库](https://github.com/zjupure/GlideWebpDecoder)
+
 
 ## UI模块
 
