@@ -3,6 +3,7 @@
 ## ANR相关
 
 * [ANR 详解](https://xfhy666.blog.csdn.net/article/details/128113820?spm=1001.2014.3001.5502)
+
   产生的2种方式：1、Service、Broadcast、Provider 触发 ANR（watchDog 机制） 
                2、input 的超时检测机制  （处理后续上报事件的过程才会去检测是否该爆炸，所以更像是扫雷的过程）
 

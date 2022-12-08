@@ -12,7 +12,7 @@
 
 ## flutter相关
 
-## [flutter相关的](/flutter)
+## [flutter相关的](/flutter相关的)
 
 ## 联系方式
 * QQ: 472379153

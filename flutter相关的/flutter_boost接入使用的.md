@@ -1,6 +1,8 @@
 ## 关于flutter_boost的集成使用
 集成文档地址(https://github.com/alibaba/flutter_boost)
 
+使用文档(https://github.com/alibaba/flutter_boost/blob/master/README_CN.md)
+
 
 ##### 1、新建或引入flutter module 项目
 
