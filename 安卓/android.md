@@ -16,7 +16,7 @@
 
 * [国内 Android 设备 / ROM 兼容性问题反馈与跟踪](https://github.com/android-in-china/Compatibility)
 
-## [埋点相关的](./埋点相关/log.md)
+## [埋点相关的](./埋点/log.md)
 
 ## [webview](./webview/webview.md)
 
