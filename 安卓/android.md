@@ -83,16 +83,16 @@
   #### 自定义view
 * [背景水波纹效果MultiWaveHeader](https://github.com/scwang90/MultiWaveHeader)
 * [任意位置悬浮的按钮FloatWindow](https://github.com/yhaolpz/FloatWindow)
-     列表
+  列表
 * [RecyclerView实现顶部悬浮效果](https://github.com/Gavin-ZYX/StickyDecoration)
-     键盘
+  键盘
 * [自定义安全键盘CustomizeKeyboard](https://github.com/StomHong/CustomizeKeyboard)
-     日历相关
+  日历相关
 * [支持自定义效果的日历](https://github.com/huanghaibin-dev/CalendarView) (star数最多，可自定义效果)
 * [仿小米日历](https://github.com/xiaojianglaile/Calendar)
-    手势密码
+  手势密码
 * [仿支付宝手势密码解锁LockPattern](https://github.com/sym900728/LockPattern)
-    刻度尺和图表总结
+  刻度尺和图表总结
 * [报表统计的MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * [自定义尺子收集demo](https://github.com/dalong982242260/AndroidRuler)
 
